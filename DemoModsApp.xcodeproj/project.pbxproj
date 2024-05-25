@@ -47,7 +47,7 @@
 		61CD6A7C2C0288EB005EF659 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7B2C0288EB005EF659 /* FavoritesView.swift */; };
 		61CD6A7E2C0288FC005EF659 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7D2C0288FC005EF659 /* TopicsView.swift */; };
 		61CD6A802C02892F005EF659 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7F2C02892F005EF659 /* AppsView.swift */; };
-		61DB0D272C02A35E00DFCA2F /* DBKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB0D262C02A35E00DFCA2F /* DBKey.swift */; };
+		61DB0D272C02A35E00DFCA2F /* DBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB0D262C02A35E00DFCA2F /* DBKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +92,7 @@
 		61CD6A7D2C0288FC005EF659 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		61CD6A7F2C02892F005EF659 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
 		61DB0D252C028C2400DFCA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		61DB0D262C02A35E00DFCA2F /* DBKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBKey.swift; sourceTree = "<group>"; };
+		61DB0D262C02A35E00DFCA2F /* DBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 			children = (
 				61CD6A5E2C028785005EF659 /* ViewModel.swift */,
 				61CD6A602C02879C005EF659 /* DBManager.swift */,
-				61DB0D262C02A35E00DFCA2F /* DBKey.swift */,
+				61DB0D262C02A35E00DFCA2F /* DBKeys.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 				61CD6A5F2C028785005EF659 /* ViewModel.swift in Sources */,
 				61CD6A372C0284C6005EF659 /* GameModel.swift in Sources */,
 				61CD6A432C028526005EF659 /* GameNameLock.swift in Sources */,
-				61DB0D272C02A35E00DFCA2F /* DBKey.swift in Sources */,
+				61DB0D272C02A35E00DFCA2F /* DBKeys.swift in Sources */,
 				61CD6A7C2C0288EB005EF659 /* FavoritesView.swift in Sources */,
 				61CD6A722C028875005EF659 /* HeaderAndSearch.swift in Sources */,
 				61CD6A6E2C02884F005EF659 /* SearchTopHeaderView.swift in Sources */,
