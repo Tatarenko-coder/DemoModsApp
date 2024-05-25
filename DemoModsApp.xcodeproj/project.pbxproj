@@ -34,7 +34,6 @@
 		61CD6A5F2C028785005EF659 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A5E2C028785005EF659 /* ViewModel.swift */; };
 		61CD6A612C02879C005EF659 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A602C02879C005EF659 /* DBManager.swift */; };
 		61CD6A642C0287BC005EF659 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = 61CD6A632C0287BC005EF659 /* SwiftyDropbox */; };
-		61CD6A662C0287DB005EF659 /* DBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A652C0287DB005EF659 /* DBKeys.swift */; };
 		61CD6A682C028813005EF659 /* BGUseAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A672C028813005EF659 /* BGUseAll.swift */; };
 		61CD6A6A2C028826005EF659 /* EmpTy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A692C028826005EF659 /* EmpTy.swift */; };
 		61CD6A6C2C028839005EF659 /* AlertErrorDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A6B2C028839005EF659 /* AlertErrorDownload.swift */; };
@@ -48,6 +47,7 @@
 		61CD6A7C2C0288EB005EF659 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7B2C0288EB005EF659 /* FavoritesView.swift */; };
 		61CD6A7E2C0288FC005EF659 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7D2C0288FC005EF659 /* TopicsView.swift */; };
 		61CD6A802C02892F005EF659 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6A7F2C02892F005EF659 /* AppsView.swift */; };
+		61DB0D272C02A35E00DFCA2F /* DBKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB0D262C02A35E00DFCA2F /* DBKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,7 +78,6 @@
 		61CD6A5C2C02875E005EF659 /* ScrrolDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrrolDetection.swift; sourceTree = "<group>"; };
 		61CD6A5E2C028785005EF659 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		61CD6A602C02879C005EF659 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		61CD6A652C0287DB005EF659 /* DBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBKeys.swift; sourceTree = "<group>"; };
 		61CD6A672C028813005EF659 /* BGUseAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGUseAll.swift; sourceTree = "<group>"; };
 		61CD6A692C028826005EF659 /* EmpTy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpTy.swift; sourceTree = "<group>"; };
 		61CD6A6B2C028839005EF659 /* AlertErrorDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertErrorDownload.swift; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		61CD6A7D2C0288FC005EF659 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		61CD6A7F2C02892F005EF659 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
 		61DB0D252C028C2400DFCA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		61DB0D262C02A35E00DFCA2F /* DBKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 			children = (
 				61CD6A5E2C028785005EF659 /* ViewModel.swift */,
 				61CD6A602C02879C005EF659 /* DBManager.swift */,
-				61CD6A652C0287DB005EF659 /* DBKeys.swift */,
+				61DB0D262C02A35E00DFCA2F /* DBKey.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -362,13 +362,13 @@
 				61CD6A412C02851C005EF659 /* GameName.swift in Sources */,
 				61CD6A572C0286E9005EF659 /* StaticVar.swift in Sources */,
 				61CD6A592C028719005EF659 /* UniversalFMHelper.swift in Sources */,
-				61CD6A662C0287DB005EF659 /* DBKeys.swift in Sources */,
 				61CD6A6A2C028826005EF659 /* EmpTy.swift in Sources */,
 				61CD6A3F2C028508005EF659 /* DeteileGame.swift in Sources */,
 				61CD6A782C0288B1005EF659 /* FavoriteButton.swift in Sources */,
 				61CD6A5F2C028785005EF659 /* ViewModel.swift in Sources */,
 				61CD6A372C0284C6005EF659 /* GameModel.swift in Sources */,
 				61CD6A432C028526005EF659 /* GameNameLock.swift in Sources */,
+				61DB0D272C02A35E00DFCA2F /* DBKey.swift in Sources */,
 				61CD6A7C2C0288EB005EF659 /* FavoritesView.swift in Sources */,
 				61CD6A722C028875005EF659 /* HeaderAndSearch.swift in Sources */,
 				61CD6A6E2C02884F005EF659 /* SearchTopHeaderView.swift in Sources */,
