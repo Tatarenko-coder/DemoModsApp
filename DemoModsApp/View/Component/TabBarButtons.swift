@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TabBarButtons: View {
-    @Binding var selectedTab: TapEnum
+    @Binding var selectedTab: TabEnum
     @Environment(\.horizontalSizeClass) var sizeClass
     private var isAdaptive: Bool {
         UIDevice.current.userInterfaceIdiom == .phone

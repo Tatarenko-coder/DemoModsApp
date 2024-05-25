@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FinalView: View {
-    @State private var selectedTab: TapEnum = .games
+    @State private var selectedTab: TabEnum = .games
     @StateObject private var vm = ViewModel()
     var body: some View {
         NavigationView {
@@ -37,4 +37,5 @@ struct FinalView: View {
 
 #Preview {
     FinalView()
+        .environmentObject(ViewModel())
 }

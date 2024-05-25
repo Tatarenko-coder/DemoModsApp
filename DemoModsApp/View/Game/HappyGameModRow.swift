@@ -15,7 +15,7 @@ struct HappyGameModRow: View {
         sizeClass == .compact
     }
     @State var image: UIImage?
-    @EnvironmentObject var netManager: NetExamRequset
+    @EnvironmentObject var netManager: NetRequset
     var body: some View {
         VStack {
             ZStack(alignment: .top) {

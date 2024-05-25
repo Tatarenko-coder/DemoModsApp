@@ -92,6 +92,7 @@
 		61CD6A7B2C0288EB005EF659 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		61CD6A7D2C0288FC005EF659 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		61CD6A7F2C02892F005EF659 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		61DB0D252C028C2400DFCA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 		61CD6A1B2C0283A2005EF659 /* DemoModsApp */ = {
 			isa = PBXGroup;
 			children = (
+				61DB0D252C028C2400DFCA2F /* Info.plist */,
 				61CD6A1C2C0283A2005EF659 /* DemoModsAppApp.swift */,
 				61CD6A1E2C0283A2005EF659 /* FinalView.swift */,
 				61CD6A2A2C0283DC005EF659 /* Model */,
@@ -515,6 +517,7 @@
 				DEVELOPMENT_TEAM = CTVA4HW6A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoModsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -544,6 +547,7 @@
 				DEVELOPMENT_TEAM = CTVA4HW6A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoModsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

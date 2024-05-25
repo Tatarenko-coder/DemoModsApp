@@ -23,7 +23,7 @@ struct DeteileGame: View {
     let fileManager = UniversalLMHalper.instanse
     @State private var destinationURL: URL?
     @State var image: UIImage?
-    @EnvironmentObject var netManager: NetExamRequset
+    @EnvironmentObject var netManager: NetRequset
     var body: some View {
         VStack(spacing: 20) {
             HeaderButtonsDeteileMod(isSave: gameMod.isFavorit) {
